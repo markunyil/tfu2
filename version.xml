@@ -2,7 +2,7 @@
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 
 <!--
-  * plugins/themes/ungdomsforskning/version.xml
+  * plugins/themes/tfu2/version.xml
   *
   * Copyright (c) 2013-2014 Simon Fraser University Library
   * Copyright (c) 2003-2014 John Willinsky
@@ -11,8 +11,8 @@
   * Plugin version information.
   -->
 <version>
-	<application>ungdomsforskning</application>
+	<application>tfu2</application>
 	<type>plugins.themes</type>
-	<release>1.1.1.1</release>
-	<date>2016-02-03</date>
+	<release>1.0.0.0</release>
+	<date>2017-06-07</date>
 </version>
