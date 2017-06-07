@@ -247,8 +247,9 @@ ul.steplist li.current a {
 /* #navbar START */
 
 #breadcrumb {
-	margin-right: 1em;
-	margin-right: 1rem;
+	/*margin-right: 1em;*/  /*2017.06.07 - made comment */
+	/*margin-right: 1rem;*/ /*2017.06.07 - made comment */
+	display: none; /*2017.06.07 - to hide breadcrumb */
 }
 
 #navbar {
@@ -312,6 +313,11 @@ ul.steplist li.current a {
 	background-color: #aae4e6;
 	color: black;
 }
+
+#navbar li#current {
+	display: none; /*2017.06.07 - to hide CURRENT from top menu */
+}
+
 /* #navbar END */
 
 #content {
